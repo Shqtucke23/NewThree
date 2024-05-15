@@ -14,7 +14,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, Tuck!")
-            
+            Button("Click Again Button") {
+                
+            }
         }
         .padding()
     }
