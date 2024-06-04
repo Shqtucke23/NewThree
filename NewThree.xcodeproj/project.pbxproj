@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F44DE5D02C0E9A1F00492889 /* GasListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44DE5CF2C0E9A1F00492889 /* GasListView.swift */; };
+		F44DE5D22C0E9AF200492889 /* DriversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44DE5D12C0E9AF200492889 /* DriversView.swift */; };
+		F44DE5D42C0E9B1F00492889 /* DispatcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44DE5D32C0E9B1F00492889 /* DispatcherView.swift */; };
 		F451CE792BF2ED9B006619C6 /* NewThreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CE782BF2ED9B006619C6 /* NewThreeApp.swift */; };
-		F451CE7B2BF2ED9B006619C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CE7A2BF2ED9B006619C6 /* ContentView.swift */; };
+		F451CE7B2BF2ED9B006619C6 /* GasStationTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CE7A2BF2ED9B006619C6 /* GasStationTabView.swift */; };
 		F451CE7D2BF2ED9D006619C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F451CE7C2BF2ED9D006619C6 /* Assets.xcassets */; };
 		F451CE812BF2ED9D006619C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F451CE802BF2ED9D006619C6 /* Preview Assets.xcassets */; };
 		F451CE8B2BF2ED9D006619C6 /* NewThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CE8A2BF2ED9D006619C6 /* NewThreeTests.swift */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F44DE5CF2C0E9A1F00492889 /* GasListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasListView.swift; sourceTree = "<group>"; };
+		F44DE5D12C0E9AF200492889 /* DriversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversView.swift; sourceTree = "<group>"; };
+		F44DE5D32C0E9B1F00492889 /* DispatcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatcherView.swift; sourceTree = "<group>"; };
 		F451CE752BF2ED9B006619C6 /* NewThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F451CE782BF2ED9B006619C6 /* NewThreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewThreeApp.swift; sourceTree = "<group>"; };
-		F451CE7A2BF2ED9B006619C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F451CE7A2BF2ED9B006619C6 /* GasStationTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationTabView.swift; sourceTree = "<group>"; };
 		F451CE7C2BF2ED9D006619C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F451CE7E2BF2ED9D006619C6 /* NewThree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewThree.entitlements; sourceTree = "<group>"; };
 		F451CE802BF2ED9D006619C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				F451CE782BF2ED9B006619C6 /* NewThreeApp.swift */,
-				F451CE7A2BF2ED9B006619C6 /* ContentView.swift */,
+				F44DE5CF2C0E9A1F00492889 /* GasListView.swift */,
+				F44DE5D12C0E9AF200492889 /* DriversView.swift */,
+				F44DE5D32C0E9B1F00492889 /* DispatcherView.swift */,
+				F451CE7A2BF2ED9B006619C6 /* GasStationTabView.swift */,
 				F451CE7C2BF2ED9D006619C6 /* Assets.xcassets */,
 				F451CE7E2BF2ED9D006619C6 /* NewThree.entitlements */,
 				F451CE7F2BF2ED9D006619C6 /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F451CE7B2BF2ED9B006619C6 /* ContentView.swift in Sources */,
+				F451CE7B2BF2ED9B006619C6 /* GasStationTabView.swift in Sources */,
 				F451CE792BF2ED9B006619C6 /* NewThreeApp.swift in Sources */,
+				F44DE5D22C0E9AF200492889 /* DriversView.swift in Sources */,
+				F44DE5D02C0E9A1F00492889 /* GasListView.swift in Sources */,
+				F44DE5D42C0E9B1F00492889 /* DispatcherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

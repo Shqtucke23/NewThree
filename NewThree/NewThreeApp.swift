@@ -11,7 +11,7 @@ import SwiftUI
 struct NewThreeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GasStationTabView()
         }
     }
 }
