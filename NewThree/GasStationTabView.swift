@@ -12,19 +12,19 @@ struct GasStationTabView: View {
         TabView {
             GasListView()
                 .tabItem {
-                    Image(systemName: "person.3.fill")
+                    Image(systemName: "fuelpump.fill")
                     Text("Stations")
                 }
             
             DriversView()
                 .tabItem {
-                    Image(systemName: "person.3.fill")
+                    Image(systemName: "truck.box.badge.clock.fill")
                     Text("Drivers")
                 }
             
             DispatcherView()
                 .tabItem {
-                    Image(systemName: "person.3.fill")
+                    Image(systemName: "person.wave.2")
                     Text("Dispacther")
                 }
         }
