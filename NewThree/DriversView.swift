@@ -9,7 +9,10 @@ import SwiftUI
 
 struct DriversView: View {
     var body: some View {
-        Text("Drivers")
+        NavigationStack {
+            Text("DRIVERS")
+                .navigationTitle("🚛 Drivers")
+        }
     }
 }
 

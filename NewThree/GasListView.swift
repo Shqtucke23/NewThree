@@ -9,7 +9,11 @@ import SwiftUI
 
 struct GasListView: View {
     var body: some View {
-        Text("Gas Stations")
+        NavigationStack {
+            Text("Gas Stations")
+                .navigationTitle("⛽️ Gas Stations")
+        }
+        
     }
 }
 

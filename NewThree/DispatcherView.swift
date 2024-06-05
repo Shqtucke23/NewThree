@@ -9,7 +9,10 @@ import SwiftUI
 
 struct DispatcherView: View {
     var body: some View {
-        Text("Dispatcher")
+        NavigationStack {
+            Text("Dispatcher")
+                .navigationTitle("🎙️ Dispatchers")
+        }
     }
 }
 
