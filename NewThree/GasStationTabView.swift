@@ -28,6 +28,7 @@ struct GasStationTabView: View {
                     Text("Dispacther")
                 }
         }
+        .accentColor(Color("BrandPrimary"))
     }
 }
 
