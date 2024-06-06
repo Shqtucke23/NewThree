@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct DriversView: View {
+    @State private var drivers = Driver.preview()
+    
     var body: some View {
         NavigationStack {
-            Text("DRIVERS")
+            List(drivers, id:\ .name) { driver in
+                Text(driver.name)
+            }
                 .navigationTitle("🚛 Drivers")
         }
     }

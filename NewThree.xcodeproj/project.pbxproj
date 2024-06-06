@@ -18,6 +18,7 @@
 		F451CE952BF2ED9D006619C6 /* NewThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CE942BF2ED9D006619C6 /* NewThreeUITests.swift */; };
 		F451CE972BF2ED9D006619C6 /* NewThreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CE962BF2ED9D006619C6 /* NewThreeUITestsLaunchTests.swift */; };
 		F45C50C22C11321600E8DFDB /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = F45C50C12C11321600E8DFDB /* stations.json */; };
+		F45C50C42C1137EB00E8DFDB /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45C50C32C1137EB00E8DFDB /* Driver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F451CE942BF2ED9D006619C6 /* NewThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewThreeUITests.swift; sourceTree = "<group>"; };
 		F451CE962BF2ED9D006619C6 /* NewThreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewThreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F45C50C12C11321600E8DFDB /* stations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stations.json; sourceTree = "<group>"; };
+		F45C50C32C1137EB00E8DFDB /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F44DE5D32C0E9B1F00492889 /* DispatcherView.swift */,
 				F451CE7A2BF2ED9B006619C6 /* GasStationTabView.swift */,
 				F45C50C12C11321600E8DFDB /* stations.json */,
+				F45C50C32C1137EB00E8DFDB /* Driver.swift */,
 				F451CE7C2BF2ED9D006619C6 /* Assets.xcassets */,
 				F451CE7E2BF2ED9D006619C6 /* NewThree.entitlements */,
 				F451CE7F2BF2ED9D006619C6 /* Preview Content */,
@@ -275,6 +278,7 @@
 				F451CE7B2BF2ED9B006619C6 /* GasStationTabView.swift in Sources */,
 				F451CE792BF2ED9B006619C6 /* NewThreeApp.swift in Sources */,
 				F44DE5D22C0E9AF200492889 /* DriversView.swift in Sources */,
+				F45C50C42C1137EB00E8DFDB /* Driver.swift in Sources */,
 				F44DE5D02C0E9A1F00492889 /* GasListView.swift in Sources */,
 				F44DE5D42C0E9B1F00492889 /* DispatcherView.swift in Sources */,
 			);
