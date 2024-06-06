@@ -1,0 +1,23 @@
+{
+    "request": [
+       {
+           "name": "Corner Stop 120",
+           "address" : "156 15-401 Bypass West",
+           "contact" : "803.225.3456"
+           "city" : "Bennettsville SC",
+           "brand" : "BP",
+           "terminal" : "CLT",
+           "notes" : "13K UNL, 13KPREM, 13KPLUS",
+           "drivers": ["Jerry", "Clarence", "Tobin", "Michael"],
+           "terminalName" : ["Buckeye", "Marathon East"],
+           "carriers" : ["PETE", "ALCO", "MPE-CLT"],
+           "backupBrands" : ["EXXON", "AMOCO", "CITGO", "MARATHON"]
+       }
+        
+        
+        
+        
+        
+        
+    ]
+}

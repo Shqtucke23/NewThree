@@ -17,6 +17,7 @@
 		F451CE8B2BF2ED9D006619C6 /* NewThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CE8A2BF2ED9D006619C6 /* NewThreeTests.swift */; };
 		F451CE952BF2ED9D006619C6 /* NewThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CE942BF2ED9D006619C6 /* NewThreeUITests.swift */; };
 		F451CE972BF2ED9D006619C6 /* NewThreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CE962BF2ED9D006619C6 /* NewThreeUITestsLaunchTests.swift */; };
+		F45C50C22C11321600E8DFDB /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = F45C50C12C11321600E8DFDB /* stations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F451CE902BF2ED9D006619C6 /* NewThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F451CE942BF2ED9D006619C6 /* NewThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewThreeUITests.swift; sourceTree = "<group>"; };
 		F451CE962BF2ED9D006619C6 /* NewThreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewThreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F45C50C12C11321600E8DFDB /* stations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F44DE5D12C0E9AF200492889 /* DriversView.swift */,
 				F44DE5D32C0E9B1F00492889 /* DispatcherView.swift */,
 				F451CE7A2BF2ED9B006619C6 /* GasStationTabView.swift */,
+				F45C50C12C11321600E8DFDB /* stations.json */,
 				F451CE7C2BF2ED9D006619C6 /* Assets.xcassets */,
 				F451CE7E2BF2ED9D006619C6 /* NewThree.entitlements */,
 				F451CE7F2BF2ED9D006619C6 /* Preview Content */,
@@ -244,6 +247,7 @@
 			files = (
 				F451CE812BF2ED9D006619C6 /* Preview Assets.xcassets in Resources */,
 				F451CE7D2BF2ED9D006619C6 /* Assets.xcassets in Resources */,
+				F45C50C22C11321600E8DFDB /* stations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
