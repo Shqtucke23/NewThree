@@ -12,10 +12,23 @@ struct DriversView: View {
     
     var body: some View {
         NavigationStack {
+            Section {
             List(drivers, id:\ .name) { driver in
-                Text(driver.name)
+                
+                    HStack {
+                        Text(driver.icon)
+                        Text(driver.name)
+                    }
+                }
+               
+                
+            } header: {
+                Text("TUCKER OIL")
+                    .listStyle(.insetGrouped)
             }
-                .navigationTitle("🚛 Drivers")
+            .headerProminence(.standard)
+            
+            .navigationTitle("🚛 Drivers")
         }
     }
 }
